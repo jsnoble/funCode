@@ -57,7 +57,6 @@ var circularLinkedList = function (number){
   var list = new LinkedList();
 
   for(var i = 1; i <= number; i++){
-    //var chair = "Chair " + i;
     list.addNode("Chair " + i);
   }
   //making circular reference
