@@ -21,7 +21,7 @@
 
 function getProduct (num){
     var numb = num;
-    numbLength = String(num).length;
+    var numbLength = String(numb).length;
     var answers = [];
 
     if(num === 1){
@@ -34,7 +34,7 @@ function getProduct (num){
             return prev * curr ;
         },1);
 
-        //Max num passed in is 10 digits long
+        //max length of possible numb is numbLength +1
         if(product > numb || arr.length > numbLength+1){
             return;
         }
