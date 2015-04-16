@@ -57,9 +57,13 @@ function getProduct (num){
     }
 
     answers.sort(function(a,b){return a -b});
-    console.log(answers);
+
     return answers[0];
 
 }
-
-console.log(getProduct(864));
+//answers come back as string thus using ==
+console.assert(getProduct(1) == 1, ' with N = 1 it should equal 1');
+console.assert(getProduct(26) == -1, ' with N = 26 it should equal -1');
+console.assert(getProduct(10) == 25, ' with N = 26 it should equal -1');
+console.assert(getProduct(864) == 2689, ' with N = 864 it should equal 2689');
+console.assert(getProduct(2520) == 5789, ' with N = 2520 it should equal 5789');
