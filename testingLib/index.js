@@ -10,8 +10,6 @@ codeEditor.setTheme("ace/theme/twilight");
 codeEditor.getSession().setMode("ace/mode/javascript");
 
 var codeStr = acorn.parse(codeEditor.getValue());
-//console.log(codeStr)
-
 
 codeEditor.on('change', _.debounce(runTests,1000));
 
