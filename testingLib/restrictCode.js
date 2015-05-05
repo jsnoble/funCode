@@ -1,0 +1,5 @@
+
+
+testCode.restrictCode = function(obj){
+
+};

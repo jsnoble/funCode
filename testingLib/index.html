@@ -11,8 +11,11 @@
 <div id="messages"></div>
 
 <div id="editor">function foo(items) {
-    var x = "All this is syntax highlighted";
-    return x;
+    var x = "Hello";
+    if(items){
+        console.log(x+" "+ items)
+    }
+    return "I did it!";
     }</div>
 
 
@@ -21,7 +24,12 @@
 <script src="lib/jquery/dist/jquery.js"></script>
 <script src="lib/underscore/underscore.js"></script>
 <script src="lib/acorn/dist/acorn.js"></script>
+<script src="lib/acorn/dist/walk.js"></script>
 
 <script src="index.js"></script>
+<script src="requireCode.js"></script>
+<script src="restrictCode.js"></script>
+<script src="structuredCode.js"></script>
+
 </body>
 </html>
