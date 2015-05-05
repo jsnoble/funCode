@@ -1,0 +1,10 @@
+"use strict";
+
+define("ace/snippets/scad", ["require", "exports", "module"], function (require, exports, module) {
+  "use strict";
+
+  exports.snippetText = undefined;
+  exports.scope = "scad";
+});
+
+//# sourceMappingURL=scad-compiled.js.map

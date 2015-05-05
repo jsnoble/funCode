@@ -1,0 +1,1 @@
+{"version":3,"sources":["/home/jared/Desktop/funCode/node_modules/jquery/src/core/var/rsingleTag.js"],"names":[],"mappings":";;AAAA,MAAM,CAAC,YAAW;;AAEjB,QAAQ,4BAA4B,CAAE;CACtC,CAAC,CAAC","file":"rsingleTag-compiled.js","sourcesContent":["define(function() {\n\t// Match a standalone tag\n\treturn (/^<(\\w+)\\s*\\/?>(?:<\\/\\1>|)$/);\n});\n"]}

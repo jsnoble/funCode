@@ -1,0 +1,1 @@
+{"version":3,"sources":["/home/jared/Desktop/funCode/node_modules/jquery/src/css/var/rmargin.js"],"names":[],"mappings":";;AAAA,MAAM,CAAC,YAAW;AACjB,QAAQ,SAAS,CAAE;CACnB,CAAC,CAAC","file":"rmargin-compiled.js","sourcesContent":["define(function() {\n\treturn (/^margin/);\n});\n"]}

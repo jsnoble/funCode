@@ -1,0 +1,1 @@
+{"version":3,"sources":["/home/jared/Desktop/funCode/node_modules/jquery/src/var/class2type.js"],"names":[],"mappings":";;AAAA,MAAM,CAAC,YAAW;;AAEjB,QAAO,EAAE,CAAC;CACV,CAAC,CAAC","file":"class2type-compiled.js","sourcesContent":["define(function() {\n\t// [[Class]] -> type pairs\n\treturn {};\n});\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["/home/jared/Desktop/funCode/node_modules/jquery/src/data/var/data_user.js"],"names":[],"mappings":";;AAAA,MAAM,CAAC,CACN,SAAS,CACT,EAAE,UAAU,IAAI,EAAG;AACnB,QAAO,IAAI,IAAI,EAAE,CAAC;CAClB,CAAC,CAAC","file":"data_user-compiled.js","sourcesContent":["define([\n\t\"../Data\"\n], function( Data ) {\n\treturn new Data();\n});\n"]}

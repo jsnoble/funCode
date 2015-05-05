@@ -1,0 +1,1 @@
+{"version":3,"sources":["/home/jared/Desktop/funCode/node_modules/jquery/src/var/support.js"],"names":[],"mappings":";;AAAA,MAAM,CAAC,YAAW;;AAEjB,QAAO,EAAE,CAAC;CACV,CAAC,CAAC","file":"support-compiled.js","sourcesContent":["define(function() {\n\t// All support tests are defined in their respective modules.\n\treturn {};\n});\n"]}
