@@ -1,39 +1,36 @@
 
-//arguments should be an array of objects
+//this code displays a hierarchical tree of the code
 testCode.structuredCode = function(){
-    var astTree = getAST(codeStr);
+    var astTree = testCode.get();
     var strHtml = '';
 
-    console.log('this is ast', astTree);
-
-    function iterate(node){
-        console.log(node);
+    function recurse(node){
         var nodeType = node.type;
         if(!nodeType){
             return;
         }
         var str = '<li>' + nodeType + '</li>';
-       // console.log(str)
         strHtml += str;
-        //console.log(strHtml);
+
         if(Array.isArray(node.body)){
             strHtml += '<ul>';
             _.each(node.body,function(innerNode){
-                iterate(innerNode);
+                recurse(innerNode);
             });
             strHtml += '</ul>';
         } else if(node.consequent){
             strHtml += '<ul>';
-            iterate(node.consequent);
+            recurse(node.consequent);
             strHtml += '</ul>';
         } else if(node.body){
             strHtml += '<ul>';
-            iterate(node.body);
+            recurse(node.body);
             strHtml += '</ul>';
         }
     }
 
-    iterate(astTree);
+    recurse(astTree);
 
+    //jQuery object
    structure.html(strHtml);
 };

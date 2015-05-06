@@ -1,0 +1,61 @@
+
+The API's available to be used are :
+    testcode.requireCode,
+    testcode.restrictCode
+
+    The API for structuredCode automatically runs for you after typing.
+    The API listed above take an array of strings, which should correspond to
+    the node types as described by Mozilla's Parser API
+
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Parser_API
+
+Listed below is a few of the types available:
+
+        type: "BlockStatement";
+
+        type: "ExpressionStatement";
+
+        type: "IfStatement";
+
+        type: "LabeledStatement";
+
+        type: "BreakStatement";
+
+        type: "ContinueStatement";
+
+        type: "WithStatement";
+
+        type: "SwitchStatement";
+
+        type: "ReturnStatement";
+
+        type: "ThrowStatement";
+
+        type: "TryStatement";
+
+        type: "WhileStatement";
+
+        type: "DoWhileStatement";
+
+        type: "ForStatement";
+
+        type: "ForInStatement";
+
+        type: "ForOfStatement";
+
+        type: "LetStatement";
+
+        type: "DebuggerStatement";
+
+        type: "FunctionDeclaration";
+
+        type: "VariableDeclaration";
+
+        type: "ThisExpression";
+
+        type: "ArrayExpression";
+
+        type: "ObjectExpression";
+
+        type: "FunctionExpression";

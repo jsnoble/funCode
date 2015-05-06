@@ -9,14 +9,26 @@
 <body>
 
 <div id="messages"></div>
-<div id="structure"></div>
-<div id="editor">function foo(items) {
-    var x = "Hello";
+
+<div id="editor">function foo (items) {
+    var x;
+
     if(items){
-        console.log(x+" "+ items)
-    }
+        x = "Hello";
+      }
+
+    for(var i = 0; i < 10; i++){
+        console.log(x)
+      }
+
     return "I did it!";
-    }</div>
+ }</div>
+
+<div class="structure">
+    <h2>Structure</h2>
+    <div id="structure"></div>
+</div>
+
 
 
 
