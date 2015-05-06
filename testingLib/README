@@ -12,50 +12,50 @@ https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Parser_AP
 
 Listed below is a few of the types available:
 
-        type: "BlockStatement";
+         "BlockStatement"
 
-        type: "ExpressionStatement";
+         "ExpressionStatement"
 
-        type: "IfStatement";
+         "IfStatement"
 
-        type: "LabeledStatement";
+         "LabeledStatement"
 
-        type: "BreakStatement";
+         "BreakStatement"
 
-        type: "ContinueStatement";
+         "ContinueStatement"
 
-        type: "WithStatement";
+         "WithStatement"
 
-        type: "SwitchStatement";
+         "SwitchStatement"
 
-        type: "ReturnStatement";
+         "ReturnStatement"
 
-        type: "ThrowStatement";
+         "ThrowStatement"
 
-        type: "TryStatement";
+         "TryStatement"
 
-        type: "WhileStatement";
+         "WhileStatement"
 
-        type: "DoWhileStatement";
+         "DoWhileStatement"
 
-        type: "ForStatement";
+         "ForStatement"
 
-        type: "ForInStatement";
+         "ForInStatement"
 
-        type: "ForOfStatement";
+         "ForOfStatement"
 
-        type: "LetStatement";
+         "LetStatement"
 
-        type: "DebuggerStatement";
+         "DebuggerStatement"
 
-        type: "FunctionDeclaration";
+         "FunctionDeclaration"
 
-        type: "VariableDeclaration";
+         "VariableDeclaration"
 
-        type: "ThisExpression";
+         "ThisExpression"
 
-        type: "ArrayExpression";
+         "ArrayExpression"
 
-        type: "ObjectExpression";
+         "ObjectExpression"
 
-        type: "FunctionExpression";
+         "FunctionExpression"
