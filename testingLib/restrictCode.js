@@ -1,5 +1,5 @@
 
-
+//arguments should be an array of strings
 testCode.restrictCode = function(array){
     var astTree = getAST(codeStr);
     var arr = array ? array.slice() : ['BreakStatement'];

@@ -1,6 +1,7 @@
 
 var messages = $('#messages');
 var editor = $('#editor');
+var structure = $('#structure');
 
 //testCode will be global api
 var testCode = {};
@@ -29,3 +30,4 @@ function runTests(){
 
 }
 
+messages.text('hello </br> my name is jared');
