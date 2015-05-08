@@ -1,12 +1,14 @@
 
-The API's available to be used are :
-    testcode.requireCode,
-    testcode.restrictCode
+The API's available to be used are located in the browser console and are :
+    testCode.requireCode
+    testCode.restrictCode
 
     The API for structuredCode automatically runs for you after typing.
     The API listed above take an array of strings, which should correspond to
     the node types as described by Mozilla's Parser API
 
+   //Example
+    testCode.requireCode(["IfStatement","ReturnStatement"])
 
 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Parser_API
 
